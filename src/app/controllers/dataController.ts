@@ -18,7 +18,7 @@ export class DataController {
     // Set up interval to simulate data every hour (3600000 milliseconds)
     setInterval(() => {
       this.simulationService.sendSimulatedData();
-    }, 3600);
+    }, 3600000);
   }
   // API endpoint to receive IoT data
   receiveData(req: Request, res: Response): void {

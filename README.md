@@ -42,6 +42,7 @@ $ npm test
 │   │   │   └── dataModel.ts
 │   │   └── services
 │   │       └── averageCalculationService.ts
+│   │       └── dataService.spec.ts
 │   │       └── dataServices.ts
 │   │       └── simulationService.ts
 │   ├── data

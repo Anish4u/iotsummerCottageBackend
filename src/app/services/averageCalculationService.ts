@@ -1,9 +1,6 @@
 // Import the IoTData model
 import { IoTData } from "../models/dataModel";
 
-// Import the in-memory storage module
-import { inMemoryStorage } from "../../data/inMemoryStorage";
-
 // Service class to handle the calculation of average values
 export class AverageCalculationService {
   /**

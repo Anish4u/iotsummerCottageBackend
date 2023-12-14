@@ -1,7 +1,5 @@
-// Import the IoTData model
+// Import the IoTData,in-memory storage model
 import { IoTData } from "../models/dataModel";
-
-// Import the in-memory storage module
 import { inMemoryStorage } from "../../data/inMemoryStorage";
 
 // Service class to handle IoT data processing
