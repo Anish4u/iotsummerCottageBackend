@@ -21,10 +21,6 @@ class InMemoryStorage {
     this.data.push(data);
   }
 
-  // Method to store processed data
-  storeProcessedData(processedData: ProcessedData): void {
-    this.processedData.push(processedData);
-  }
 
 
   // Method to retrieve all raw IoT data
@@ -33,10 +29,6 @@ class InMemoryStorage {
   }
 
 
-  // Method to retrieve all processed data
-  getProcessedData(): ProcessedData[] {
-    return this.processedData;
-  }
 }
 
 // Create an instance of the InMemoryStorage class for export
