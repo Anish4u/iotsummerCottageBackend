@@ -21,14 +21,10 @@ class InMemoryStorage {
     this.data.push(data);
   }
 
-
-
   // Method to retrieve all raw IoT data
   getData(): IoTData[] {
     return this.data;
   }
-
-
 }
 
 // Create an instance of the InMemoryStorage class for export
